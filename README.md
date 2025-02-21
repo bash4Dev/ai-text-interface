@@ -12,7 +12,7 @@ An AI-powered text processing interface built with React and Vite. This project 
 
 ## Technologies
 
-- **React** with TypeScript
+- **React** for state mgt
 - **Vite** for fast development and building
 - **Chrome Built-in AI APIs:** Language Detector, Summarizer, and Translator
 - CSS for styling
