@@ -1,8 +1,27 @@
-# React + Vite
+# AI-Powered Text Processor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered text processing interface built with React and Vite. This project lets users input text and receive language detection, summarization, and translation using Chrome's built-in AI APIs. It is part of the HNG Internship Stage 3 task.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Chat Interface:** Clean, responsive UI mimicking a chat window.
+- **Language Detection:** Automatically detects the language of the input text.
+- **Summarization:** Summarizes English text (if longer than 150 characters) via the Summarizer API.
+- **Translation:** Translates text into multiple languages using the Translator API.
+- **Error Handling:** Displays meaningful error messages and progress indicators.
+
+## Technologies
+
+- **React** with TypeScript
+- **Vite** for fast development and building
+- **Chrome Built-in AI APIs:** Language Detector, Summarizer, and Translator
+- CSS for styling
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd ai-text-interface
+
